@@ -1,4 +1,4 @@
-it is allowed to use variable before declaring it as var
+it is allowed to use variable before declaring it as var (Not allowed for let though)
 interpolation (``)
 Math.XX
 == and === (later checks type as well) (coersion)
