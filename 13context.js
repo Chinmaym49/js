@@ -8,7 +8,7 @@ function foo() {
 
 // ----------------------------
 
-fooo();                     // ERR
+fooo();                     // ERR (does not work for functions assigned to variables)
 
 var fooo=function() {
     console.log("fooo");
@@ -17,6 +17,8 @@ var fooo=function() {
 // ----------------------------
 
 console.log(x);             // undefined
+x=x+1;
+console.log(x);             // NaN
 var x=1;
 
 // ----------------------------
