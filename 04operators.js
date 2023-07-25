@@ -1,0 +1,10 @@
+var x=11;
+var y=2;
+console.log(x**y);
+console.log(x/y);
+console.log(x>y);
+console.log(Math.round(x/y));
+console.log(5<=2);
+console.log(Math.E);
+console.log(6>>1);
+console.log(6<<1);
