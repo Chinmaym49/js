@@ -18,3 +18,8 @@ it is allowed to call method before defining it (given that the method is not as
 
 it is NOT allowed to call method before defining it (given that the method is assigned to var)
 
+shift (popfront), unshift (insert at start), every, fill (replaces index range with value)
+
+delete obj.x
+
+for, while, do while, for each traditional, forEach, for each traditional for obj

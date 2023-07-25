@@ -14,9 +14,9 @@ obj.x+=10;
 obj.z-=obj.y;
 
 obj.a=1;
-console.log(obj);
+console.table(obj);
 
 delete obj.x;
 obj.foo(10);
 obj.foo(20);
-console.log(obj)
+console.log(obj);
