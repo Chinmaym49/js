@@ -43,3 +43,5 @@ let vs var (scope)
 js is an interpreted language like python.
 
 destructure (var [a,b]=arr; var {x,y}=obj; [name should be same])
+
+spread, rest ... [allows to copy object with different reference]
