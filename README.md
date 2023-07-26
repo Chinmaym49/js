@@ -24,6 +24,6 @@ for, while, do while, for each traditional, forEach, for each traditional for ob
 
 obj.x equivalent to obj['x']
 
-while creating obj, make it a practice to declare key as string. let obj = {'x' : 1, 'y' : 'abc', 'z' : n, 'a' : [1,2,3], foo : function(){}};
+while creating obj, make it a practice to declare key as string. let obj = {'x' : 1, 'y' : 'abc', 'z' : n, '1' : {}, 'a' : [1,2,3], foo : function(){}};
 
 setTimeout, setInterval

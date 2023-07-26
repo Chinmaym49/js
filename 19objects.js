@@ -2,6 +2,7 @@ var obj={
     'x':1,
     'y':2,
     'z':3,
+    '1':4,
     'arr':[],
     'foo':function(x) {
         this.arr.push(x);
@@ -20,6 +21,7 @@ delete obj.x;
 obj.foo(10);
 obj.foo(20);
 obj['foo'](2);
+console.log(obj[1]);
 console.log(obj);
 
 for (const k in obj) {
