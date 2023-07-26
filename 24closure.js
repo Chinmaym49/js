@@ -10,7 +10,9 @@ var fxn=foo();
 fxn();
 
 function add(x) {
+    console.log("x", x);
     function f(y) {
+        console.log("y", y);
         return x+y;
     }
     return f;
@@ -18,4 +20,4 @@ function add(x) {
 
 var f1=add(3);
 console.log(f1(4));
-console.log(add(3)(4));
+console.log(add("7")("8"));

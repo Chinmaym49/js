@@ -31,3 +31,6 @@ setTimeout, setInterval
 functions can be used to create classlike components using "this", "new" etc.
 
 the objects of classlike components can be accessed as objects.
+
+closure is when function returns a function. we can then just call the inner funtion using variable().
+
