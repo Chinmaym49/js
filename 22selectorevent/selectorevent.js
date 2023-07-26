@@ -13,7 +13,7 @@ var getColor = (e) => {
 }
 
 var red = document.querySelector("#red");
-var green = document.querySelector("#green");
+var green = document.querySelector(".green");
 var blue = document.querySelector("#blue");
 var circle = document.querySelector("#circle");
 
