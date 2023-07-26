@@ -38,3 +38,6 @@ don't use anonymous functions in objects and classlike components.
 
 bind is used to borrow method from 1 object and use it in another object.
 
+let vs var (scope)
+
+js is an interpreted language like python.
