@@ -1,9 +1,9 @@
 var obj={
-    x:1,
-    y:2,
-    z:3,
-    arr:[],
-    foo:function(x) {
+    'x':1,
+    'y':2,
+    'z':3,
+    'arr':[],
+    'foo':function(x) {
         this.arr.push(x);
     }
 };
@@ -19,4 +19,10 @@ console.table(obj);
 delete obj.x;
 obj.foo(10);
 obj.foo(20);
+obj['foo'](2);
 console.log(obj);
+
+for (const k in obj) {
+    console.log(typeof k, typeof obj[k]);
+    console.log(`k: ${k} v:${obj[k]}`);
+}
