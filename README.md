@@ -27,3 +27,7 @@ obj.x equivalent to obj['x']
 while creating obj, make it a practice to declare key as string. let obj = {'x' : 1, 'y' : 'abc', 'z' : n, '1' : {}, 'a' : [1,2,3], foo : function(){}};
 
 setTimeout, setInterval
+
+functions can be used to create classlike components using "this", "new" etc.
+
+the objects of classlike components can be accessed as objects.
