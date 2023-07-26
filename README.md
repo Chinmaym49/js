@@ -41,3 +41,5 @@ bind is used to borrow method from 1 object and use it in another object.
 let vs var (scope)
 
 js is an interpreted language like python.
+
+destructure (var [a,b]=arr; var {x,y}=obj; [name should be same])

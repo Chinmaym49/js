@@ -7,6 +7,9 @@ console.log(arr,i);         // No change in arr
 let [a,b]=arr;
 console.log(a,b);           // first 2 values are copied
 
+let [aa,bb,c,d]=arr;
+console.log(aa,bb,c,d);
+
 let obj={
     x:1,
     y:2
