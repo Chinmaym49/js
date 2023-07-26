@@ -1,7 +1,7 @@
 var obj1={
-    x:1,
-    y:2,
-    add: function() {
+    'x':1,
+    'y':2,
+    'add': function() {
         console.log(`
         x: ${this.x}
         y: ${this.y}

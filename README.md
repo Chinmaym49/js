@@ -34,3 +34,7 @@ the objects of classlike components can be accessed as objects.
 
 closure is when function returns a function. we can then just call the inner funtion using variable().
 
+don't use anonymous functions in objects and classlike components.
+
+bind is used to borrow method from 1 object and use it in another object.
+
