@@ -32,6 +32,8 @@ setTimeout, setInterval
 
 functions can be used to create classlike components using "this", "new" etc.
 
+DON'T use arrow functions to create classlike components. Gives ERR.
+
 the objects of classlike components can be accessed as objects.
 
 closure is when function returns a function. we can then just call the inner funtion using variable().
@@ -55,3 +57,5 @@ We can use arrow functions for defining member functions in classes
 in python, private is declared using __var but in js, it is #var
 
 static members cannot be accessed from non-static functions
+
+prototype is used to inject variables and functions in existing classlike components
