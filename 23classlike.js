@@ -4,6 +4,9 @@ var Complex=function(x,y) {
     this.print = () => {
         console.log(`>> ${this.r}+i${this.i}`);
     };
+    this.show_raw = function() {
+        console.log(this.r,this.i);
+    }
 };
 
 var c1=new Complex(1,2);
@@ -16,3 +19,4 @@ console.log(c1['i']);
 for (const k in c1)
     console.log(k);
 c1.print();
+c1.show_raw();

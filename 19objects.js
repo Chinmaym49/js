@@ -6,6 +6,9 @@ var obj={
     'arr':[],
     'foo':function(x) {
         this.arr.push(x);
+    },
+    'fooo':()=>{
+        console.log("fooo");
     }
 };
 
@@ -28,3 +31,5 @@ for (const k in obj) {
     console.log(typeof k, typeof obj[k]);
     console.log(`k: ${k} v:${obj[k]}`);
 }
+
+obj.fooo();
