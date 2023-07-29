@@ -8,5 +8,5 @@ let promise=new Promise((resolve,reject)=>{
 });
 
 promise
-.then((msg)=>(console.log(":THEN",msg)))
-.catch((msg)=>(console.log(":CATCH",msg)));
+    .then((msg)=>(console.log(":THEN",msg)))
+    .catch((msg)=>(console.log(":CATCH",msg)));

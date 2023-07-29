@@ -18,7 +18,7 @@ let call1=()=> {
     console.log(f3());      // f3
 };
 
-// call1();
+call1();
 
 // With Promise
 
@@ -30,9 +30,12 @@ let f4=()=> {
     });
 };
 
-let call2=async()=> {           // Can use await only if fxn is async
-    console.log(f1());          // f1
-    console.log(await f4());    // f4
+let call2=async()=> {                       // Can use await only if fxn is async
+    console.log(f1());                      // f1
+    console.log(await f4()                  // f4
+        .then((msg)=>(`SUCCESS: ${msg}`))
+        .catch(()=>("FAIL"))
+    );
     console.log(f3());          // f3
 };
 
