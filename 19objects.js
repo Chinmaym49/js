@@ -8,7 +8,7 @@ var obj={
         this.arr.push(x);
     },
     'fooo':()=>{
-        console.log("fooo");
+        console.log(this.x);        // undefined
     }
 };
 

@@ -20,6 +20,8 @@ shift (popfront), unshift (insert at start), every, fill (replaces index range w
 
 while creating obj, make it a practice to declare key as string. let obj = {'x' : 1, 'y' : 'abc', 'z' : n, '1' : {}, 'a' : [1,2,3], foo : function(){}};
 
+DON'T use arrow functions in objects. accessing data members gives undefined.
+
 obj.x equivalent to obj['x']
 
 delete obj.x
