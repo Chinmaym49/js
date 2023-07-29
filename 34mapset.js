@@ -17,7 +17,7 @@ mp.forEach((v,k)=>(console.log(k,v)));
 
 mp.get("c").push(4);
 mp.set(2,mp.get(2)+"y");
-console.log((mp));
+console.log(mp);
 console.log();
 
 //SET
@@ -27,6 +27,7 @@ s.add(1);
 s.add(2);
 s.add(1);
 s.add(3);
+s.add(-1);
 console.log(s);
 s.delete(1);
 console.log(s);
