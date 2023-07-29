@@ -13,7 +13,8 @@ class Num {
         return {x:this.x,y:this.#y};
     }
 
-    sum() {
+    sum = () => {
+        console.log(this.x, this.#y);
         console.log(this.x+this.#y);
         this.#reset();
     }

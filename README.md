@@ -40,6 +40,16 @@ let vs var (scope)
 
 js is an interpreted language like python.
 
-destructure (var [a,b]=arr; var {x,y}=obj; [name should be same])
+destructure (var [a,b]=arr; var {x,y}=obj; [keys and variable names should match])
 
 spread, rest ... [allows to copy object with different reference]
+
+no need of var, let keywords for datamembers while creating classlike functions or even classes
+
+no need of function keyword for member functions while creating classes
+
+We can use arrow functions for defining member functions in classes
+
+in python, private is declared using __var but in js, it is #var
+
+static members cannot be accessed from non-static functions
